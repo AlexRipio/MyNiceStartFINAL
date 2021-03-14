@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="202dp"
+        android:layout_height="291dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+
+        app:srcCompat="@drawable/logo22"
+        tools:ignore="UnknownId" />
+
+    <EditText
+        android:id="@+id/ETEmail"
+        android:layout_width="339dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/imglogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/ETPassword"
+        android:layout_width="339dp"
+        android:layout_height="52dp"
+        android:layout_below="@id/ETEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ETPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/boton_rounded"
+        android:text="Log In"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        app:backgroundTint="#000000" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ETPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/boton_rounded"
+        android:text="Log In"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        app:backgroundTint="#000000" />
+
+
+</RelativeLayout>
